@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Entsev — Desenvolvedor Backend Júnior | Java • Spring Boot • PHP • Node.js</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="layer-espaco-active">
+
+    <canvas id="space-canvas" class="journey-canvas active"></canvas>
+    <canvas id="sky-canvas" class="journey-canvas"></canvas>
+    <canvas id="earth-canvas" class="journey-canvas"></canvas>
+    <canvas id="fluid-canvas" class="journey-canvas"></canvas>
+    <canvas id="nodes-canvas"></canvas>
+
+    <div class="texture-overlay"></div>
+
+    <div class="app-frame">
+
+        <header class="brand-header">
+            <h1 class="brand-name">ARTHUR ENTSEV</h1>
+            <p class="brand-title">DESENVOLVEDOR BACKEND JÚNIOR | JAVA • SPRING BOOT • PHP • NODE.JS | DOCKER & SQL</p>
+        </header>
+
+        <nav class="main-nav">
+            <a href="#espaco" class="nav-item active" onclick="switchLayer('espaco')">
+                <span class="nav-num">01.</span> INTRODUÇÃO
+            </a>
+            <a href="#ceus" class="nav-item" onclick="switchLayer('ceus')">
+                <span class="nav-num">02.</span> TRABALHOS
+            </a>
+            <a href="#terra" class="nav-item" onclick="switchLayer('terra')">
+                <span class="nav-num">03.</span> SOBRE MIM
+            </a>
+            <a href="#oceano" class="nav-item" onclick="switchLayer('oceano')">
+                <span class="nav-num">04.</span> CONTATO
+            </a>
+        </nav>
+
+        <aside class="editorial-aside">
+
+            <div id="section-espaco" class="editorial-panel active">
+                <div class="editorial-tag">01 // INTRODUÇÃO</div>
+                <h2 class="editorial-headline">DESENVOLVEDOR BACKEND FOCADO EM ARQUITETURAS GRANDES, REGRAS DE NEGÓCIO E
+                    ALTA DISPONIBILIDADE.</h2>
+                <div class="editorial-location">SOROCABA, SP, BRASIL.</div>
+
+                <p class="editorial-paragraph">
+                    Integrante do <strong>Programa AMS (ETEC & FATEC)</strong> e atuando no desenvolvimento de sistemas
+                    integrados e automações na <strong>Flash Engenharia</strong>.
+                </p>
+
+                <div class="tech-stack-row">
+                    <div class="tech-badge-luxury" title="Java 17">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                            <line x1="6" y1="1" x2="6" y2="4"></line>
+                            <line x1="10" y1="1" x2="10" y2="4"></line>
+                            <line x1="14" y1="1" x2="14" y2="4"></line>
+                        </svg>
+                        <span>Java</span>
+                    </div>
+
+                    <div class="tech-badge-luxury" title="Spring Boot">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                        <span>Spring</span>
+                    </div>
+
+                    <div class="tech-badge-luxury" title="PHP">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M8 12h8M12 8v8"></path>
+                        </svg>
+                        <span>PHP</span>
+                    </div>
+
+                    <div class="tech-badge-luxury" title="Node.js">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                            <polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline>
+                            <polyline points="7.5 19.79 7.5 14.6 3 12"></polyline>
+                            <polyline points="21 12 16.5 14.6 16.5 19.79"></polyline>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                        <span>Node.js</span>
+                    </div>
+
+                    <div class="tech-badge-luxury" title="Docker">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="8" rx="2"></rect>
+                            <rect x="2" y="14" width="20" height="8" rx="2"></rect>
+                            <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                            <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                        </svg>
+                        <span>Docker</span>
+                    </div>
+
+                    <div class="tech-badge-luxury" title="PostgreSQL / SQL Server">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                        </svg>
+                        <span>SQL DB</span>
+                    </div>
+
+                    <div class="tech-badge-luxury" title="Redis">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                            <polyline points="2 17 12 22 22 17"></polyline>
+                            <polyline points="2 12 12 17 22 12"></polyline>
+                        </svg>
+                        <span>Redis</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section-ceus" class="editorial-panel">
+                <div class="editorial-tag">02 // TRABALHOS</div>
+                <h2 class="editorial-headline">SISTEMAS REAIS, MOTORES DE REGRAS E MICROSSERVIÇOS.</h2>
+
+                <div class="editorial-projects-list">
+                    <div class="editorial-proj-item">
+                        <span class="proj-idx">01</span>
+                        <div class="proj-info">
+                            <h4>Configurador de Produtos & Tabelas</h4>
+                            <p>Motor de regras críticas de cruzamento e parametrização industrial desenvolvido na Flash
+                                Engenharia · PHP, JS, SQL, VBA</p>
+                        </div>
+                    </div>
+
+                    <div class="editorial-proj-item">
+                        <span class="proj-idx">02</span>
+                        <div class="proj-info">
+                            <h4>Engenharia de Layouts & Automações</h4>
+                            <p>Padronização, geração dinâmica de esquemas industriais e otimização de fluxos
+                                operacionais desenvolvido na Flash Engenharia · PHP, JS, SQL, Python
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="editorial-proj-item">
+                        <span class="proj-idx">03</span>
+                        <div class="proj-info">
+                            <h4>FinTech Core API & Microsserviços</h4>
+                            <p>Arquitetura transacional escalável com processamento assíncrono · Java 17, Spring Boot,
+                                Docker, Redis</p>
+                        </div>
+                    </div>
+
+                    <div class="editorial-proj-item">
+                        <span class="proj-idx">04</span>
+                        <div class="proj-info">
+                            <h4>APIs Assíncronas & Bancos Relacionais</h4>
+                            <p>Modelagem relacional e APIs REST performáticas com autenticação JWT · Node.js,
+                                PostgreSQL, MySQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section-terra" class="editorial-panel">
+                <div class="editorial-tag">03 // SOBRE MIM</div>
+                <h2 class="editorial-headline">RESOLUÇÃO DE PROBLEMAS COMPLEXOS ATRAVÉS DE ENGENHARIA DE SOFTWARE
+                    SÓLIDA.</h2>
+
+                <div class="editorial-section-block">
+                    <div class="block-category-label">ATUAÇÃO PROFISSIONAL (EMPREGO)</div>
+                    <div class="editorial-timeline">
+                        <div class="timeline-row">
+                            <span class="timeline-period">2025 — ATUAL</span>
+                            <div class="timeline-desc">
+                                <strong>Flash Engenharia</strong>
+                                <span>Aprendiz Desenvolvedor Backend / Automações, desenvolvimento de lógicas e
+                                    escalabilidade</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="editorial-section-block">
+                    <div class="block-category-label">FORMAÇÃO ACADÊMICA</div>
+                    <div class="editorial-timeline">
+                        <div class="timeline-row">
+                            <span class="timeline-period">2026 — 2027</span>
+                            <div class="timeline-desc">
+                                <strong>FATEC Sorocaba</strong>
+                                <span>Análise e Desenvolvimento de Sistemas (Programa AMS)</span>
+                            </div>
+                        </div>
+                        <div class="timeline-row">
+                            <span class="timeline-period">2023 — 2025</span>
+                            <div class="timeline-desc">
+                                <strong>ETEC Fernando Prestes</strong>
+                                <span>Técnico em Desenvolvimento de Sistemas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="editorial-section-block">
+                    <div class="block-category-label">CURSOS & CERTIFICAÇÕES RELEVANTES</div>
+                    <div class="certs-list-clean">
+                        <a href="https://www.credly.com/badges/0dfcd263-a7bf-4708-86a0-db6a1e3cee59/public_url"
+                            target="_blank" class="cert-pill-link">
+                            <strong>IBM</strong> · Docker Essentials (2026) ↗
+                        </a>
+                        <a href="https://ticemtrilhas.org.br/certificate-validation?code=6d1084c2-b081-4b13-ae6f-dceb9d931841"
+                            target="_blank" class="cert-pill-link">
+                            <strong>Venturus</strong> · Introdução a Node.js (2025) ↗
+                        </a>
+                        <a href="https://cert.efset.org/en/uy59dq" target="_blank" class="cert-pill-link">
+                            <strong>EF SET</strong> · English Certificate B2 Upper Intermediate ↗
+                        </a>
+                        <a href="https://courses.cognitiveclass.ai/certificates/6ff774d3595240829a2402adbbf4a3cc"
+                            target="_blank" class="cert-pill-link">
+                            <strong>Cognitive Class</strong> · Prompt Engineering (2025/2026) ↗
+                        </a>
+                        <span class="cert-pill-static">
+                            <strong>Fundação Bradesco</strong> · Administrando Banco de Dados SQL
+                        </span>
+                        <span class="cert-pill-static">
+                            <strong>Huawei</strong> · Computer Network & Overview of AI
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section-oceano" class="editorial-panel">
+                <div class="editorial-tag">04 // CONTATO</div>
+                <h2 class="editorial-headline">VAMOS CONECTAR E CONSTRUIR SOLUÇÕES DE IMPACTO.</h2>
+
+                <p class="editorial-paragraph">
+                    Disponível para novos desafios, projetos e oportunidades no desenvolvimento backend.
+                </p>
+
+                <div class="editorial-contacts">
+                    <a href="mailto:arthurmendes0505@outlook.com" class="contact-line">
+                        <span class="contact-type">EMAIL</span>
+                        <span class="contact-data">arthurmendes0505@outlook.com</span>
+                    </a>
+
+                    <a href="https://linkedin.com/in/entsevarthur/" target="_blank" class="contact-line">
+                        <span class="contact-type">LINKEDIN</span>
+                        <span class="contact-data">linkedin.com/in/entsevarthur/</span>
+                    </a>
+
+                    <a href="https://github.com/arthurlynow098" target="_blank" class="contact-line">
+                        <span class="contact-type">GITHUB</span>
+                        <span class="contact-data">github.com/arthurlynow098</span>
+                    </a>
+
+                    <div class="contact-line">
+                        <span class="contact-type">LOCALIZAÇÃO</span>
+                        <span class="contact-data">Sorocaba, SP — Brasil (Remoto / Híbrido)</span>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+        <div class="social-links-bottom">
+            <a href="https://linkedin.com/in/entsevarthur/" target="_blank" class="social-link">&gt; LinkedIn</a>
+            <a href="https://github.com/arthurlynow098" target="_blank" class="social-link">&gt; GitHub</a>
+            <a href="mailto:arthurmendes0505@outlook.com" class="social-link">&gt; Email</a>
+        </div>
+
+        <footer class="app-footer">
+            © 2026 Arthur Entsev. All Rights Reserved.
+        </footer>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
