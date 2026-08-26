@@ -732,7 +732,13 @@ body.layer-oceano-active .luxury-modal {
 .edu-item p { font-size: 0.85rem; color: var(--text-muted); margin: 0; }
 
 @media (max-width: 1024px) {
-    body, html { overflow-y: auto; height: auto; }
+    /* Libera a rolagem e evita barras horizontais */
+    body, html { 
+        overflow-y: auto; 
+        overflow-x: hidden;
+        height: auto; 
+    }
+    
     .app-frame {
         padding: 2rem 1.5rem;
         grid-template-columns: 1fr;
@@ -747,6 +753,48 @@ body.layer-oceano-active .luxury-modal {
         height: auto;
         min-height: 100vh;
     }
-    .editorial-aside { text-align: left; }
-    .main-statement, .bio-statement { margin-left: 0; max-width: 100%; }
+    
+    .editorial-aside { 
+        justify-self: start;
+        max-width: 100%;
+    }
+    
+    .editorial-panel {
+        text-align: left;
+    }
+    
+    .main-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .editorial-proj-item,
+    .contact-line {
+        flex-direction: row;
+        text-align: left;
+        justify-content: flex-start;
+    }
+    
+    .certs-list-clean {
+        align-items: flex-start;
+    }
+    
+    .cert-pill-link, .cert-pill-static {
+        text-align: left;
+    }
+    
+    .social-links-bottom {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+    
+    .app-footer {
+        align-self: flex-start;
+    }
 }
