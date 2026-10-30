@@ -4,7 +4,7 @@
 
 <p align="center">Portfólio de Arthur Mendes Entsev com projetos, tecnologias e experiência profissional.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="HTML · CSS · JavaScript" width="72%"></p>
+<p align="center"><img src="assets/docs/tags.svg" alt="HTML · CSS · JavaScript" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
@@ -16,11 +16,12 @@
 
 ![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-| Área | O que você encontra | Acesso direto |
-|---|---|---|
-| **Conteúdo** | Página com apresentação e projetos. | [Abrir conteúdo →](index.html) |
-| **Visual** | Layout, cores e estilos da interface. | [Abrir visual →](styles.css) |
-| **Interação** | Comportamentos implementados em JavaScript. | [Abrir interação →](app.js) |
+<table width="100%">
+<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
+<tr><td><strong>Conteúdo</strong></td><td>Página com apresentação e projetos.</td><td><a href="index.html">Abrir conteúdo →</a></td></tr>
+<tr><td><strong>Visual</strong></td><td>Layout, cores e estilos da interface.</td><td><a href="styles.css">Abrir visual →</a></td></tr>
+<tr><td><strong>Interação</strong></td><td>Comportamentos implementados em JavaScript.</td><td><a href="app.js">Abrir interação →</a></td></tr>
+</table>
 
 <a id="visão-geral"></a>
 
