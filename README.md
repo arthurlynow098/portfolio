@@ -4,21 +4,33 @@
 
 <p align="center">Portfólio de Arthur Mendes Entsev com projetos, tecnologias e experiência profissional.</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML-C52E36?style=flat-square" alt="HTML">
-  <img src="https://img.shields.io/badge/CSS-24272E?style=flat-square" alt="CSS">
-  <img src="https://img.shields.io/badge/JavaScript-24272E?style=flat-square" alt="JavaScript">
-</p>
+<p align="center"><img src="assets/docs/tags.svg" alt="HTML · CSS · JavaScript" width="72%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
 ---
 
-## Visão geral
+<a id="explore-o-projeto"></a>
+
+![Explore o projeto](assets/docs/section-01.svg)
+
+![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
+
+| Área | O que você encontra | Acesso direto |
+|---|---|---|
+| **Conteúdo** | Página com apresentação e projetos. | [Abrir conteúdo →](index.html) |
+| **Visual** | Layout, cores e estilos da interface. | [Abrir visual →](styles.css) |
+| **Interação** | Comportamentos implementados em JavaScript. | [Abrir interação →](app.js) |
+
+<a id="visão-geral"></a>
+
+![Visão geral](assets/docs/section-02.svg)
 
 O portfólio reúne minha atuação prática na **Flash Engenharia**, minha formação em **Análise e Desenvolvimento de Sistemas (Fatec Sorocaba)** e links diretos para as demonstrações e repositórios dos meus principais sistemas.
 
-## Recursos
+<a id="recursos"></a>
+
+![Recursos](assets/docs/section-03.svg)
 
 | Recurso | Como funciona |
 |---|---|
@@ -47,7 +59,7 @@ flowchart LR
 ```text
 portfolio/
 ├── assets/
-│   └── project-animal.png          Emblema do projeto
+│   └── banner-v2.png               Banner do projeto
 ├── index.html                      Página principal do portfólio
 ├── styles.css                      Folha de estilos responsiva e animações
 ├── app.js                          Scripts de interação e navegação
@@ -57,7 +69,9 @@ portfolio/
 
 </details>
 
-## Como executar
+<a id="como-executar"></a>
+
+![Como executar](assets/docs/section-04.svg)
 
 1. Acesse diretamente **[arthurentsev.vercel.app](https://arthurentsev.vercel.app/)** ou clone o repositório para execução local:
    ```bash
