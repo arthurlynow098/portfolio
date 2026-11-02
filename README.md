@@ -1,13 +1,11 @@
-<p align="center">
-  <img src="assets/identity/banner.png" alt="portfolio" width="100%">
-</p>
+<p align="center"><img src="assets/identity-v2/banner.png" alt="Portfólio — Projetos · tecnologias · trajetória" width="100%"></p>
 
 <p align="center">Portfólio de Arthur Mendes Entsev com projetos, tecnologias e experiência profissional.</p>
 
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
 
-<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
+---
 
 <a id="explore-o-projeto"></a>
 
@@ -21,7 +19,7 @@
 
 <a id="visão-geral"></a>
 
-## Visão geral
+## Sobre o projeto
 
 O portfólio reúne minha atuação prática na **Flash Engenharia**, minha formação em **Análise e Desenvolvimento de Sistemas (Fatec Sorocaba)** e links diretos para as demonstrações e repositórios dos meus principais sistemas.
 
@@ -41,8 +39,8 @@ Animações de rolagem, navegação dinâmica e interações de interface sem pe
 **Identidade visual própria**<br>
 Estilização em styles.css e ícone vetorial exclusivo (favicon.svg).
 
-<details>
-<summary>Arquitetura</summary>
+## Arquitetura
+
 
 ```mermaid
 flowchart LR
@@ -53,10 +51,9 @@ flowchart LR
     E --> F["Repositórios GitHub & Contato"]
 ```
 
-</details>
 
-<details>
-<summary>Estrutura do repositório</summary>
+## Estrutura do repositório
+
 
 ```text
 portfolio/
@@ -69,7 +66,6 @@ portfolio/
 └── README.md
 ```
 
-</details>
 
 <a id="como-executar"></a>
 
@@ -82,10 +78,16 @@ portfolio/
    ```
 2. Abra index.html em qualquer navegador moderno.
 
-<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
+---
 
 <p align="center">
   <a href="https://github.com/arthurlynow098">GitHub</a> &nbsp;·&nbsp;
   <a href="https://arthurentsev.vercel.app/">Portfólio</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/entsevarthur/">LinkedIn</a>
 </p>
+
+## Identidade visual e créditos
+
+**Pavão** — Apresentação visual do trabalho desenvolvido. [Logo em PNG](assets/identity-v2/logo.png).
+
+Identidade organizada a partir das artes fornecidas por Arthur Entsev. Direção visual e organização documental inspiradas em [LynowCut](https://github.com/arthurlynow098/LynowCut) e [LynowCatch](https://github.com/arthurlynow098/LynowCatch). Tipografia **Inter**, com licença SIL Open Font License em [Inter-OFL.txt](assets/identity-v2/Inter-OFL.txt).
