@@ -4,8 +4,8 @@ Animal: Pavão.
 
 Apresentação visual do trabalho desenvolvido.
 
-- `logo.png`: imagem em PNG.
-- `banner.png`: banner 1800 × 600, tipografia Inter.
-- `Inter-OFL.txt`: licença da fonte.
+O banner segue as referências LynowCut, LynowMic e LynowCatch: fundo preto, gravura, letras grandes e cor saturada. A arte de origem pertence à coleção fornecida pelo autor; o banner recebeu acabamento com geração de imagens.
 
-A licença tipográfica se aplica à fonte; não altera a licença do código ou das artes do projeto.
+A fonte Inter do modelo anterior conserva a licença em `Inter-OFL.txt`; o lettering do banner revisado é rasterizado na própria arte.
+
+Cor de destaque desta identidade: `#9D4DCE`. A composição mantém as proporções do banner LynowMic aprovado, com paleta própria para este projeto.
