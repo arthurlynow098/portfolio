@@ -1,5 +1,9 @@
 <a id="top"></a>
 
+<p align="center"><sub>Portfólio</sub></p>
+
+---
+
 <p align="center"><img src="assets/identity-v2/banner.png" alt="Portfólio" width="100%"></p>
 
 <p align="center">Portfólio de Arthur Mendes Entsev com projetos, tecnologias e experiência profissional.</p>
@@ -10,35 +14,29 @@
 <img alt="CSS" src="https://img.shields.io/badge/CSS-9D4DCE?style=for-the-badge&amp;logo=css&amp;logoColor=white">
 </p>
 
-
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#recursos">Recursos</a> &nbsp;·&nbsp; <a href="#como-executar">Como executar</a></p>
-
 
 <a id="explore-o-projeto"></a>
 
 <a id="por-onde-começar"></a>
 
-<p><img src="assets/identity-v2/section-01.svg" alt="Por onde começar" width="100%"></p>
-
+## Por onde começar
 
 - **[Conteúdo](index.html)**, página com apresentação e projetos.
 - **[Visual](styles.css)**, layout, cores e estilos da interface.
 - **[Interação](app.js)**, comportamentos implementados em JavaScript.
 
-
 <a id="visão-geral"></a>
 
 <a id="sobre-o-projeto"></a>
 
-<p><img src="assets/identity-v2/section-02.svg" alt="Sobre o projeto" width="100%"></p>
+## Sobre o projeto
 
 O portfólio reúne minha atuação prática na **Flash Engenharia**, minha formação em **Análise e Desenvolvimento de Sistemas (Fatec Sorocaba)** e links diretos para as demonstrações e repositórios dos meus principais sistemas.
 
 <a id="recursos"></a>
 
-
-
-<p><img src="assets/identity-v2/section-03.svg" alt="Recursos" width="100%"></p>
+## Recursos
 
 **Vitrine de projetos**<br>
 Cards interativos destacando arquitetura, tecnologias utilizadas e acesso direto ao código no GitHub.
@@ -54,8 +52,7 @@ Estilização em styles.css e ícone vetorial exclusivo (favicon.svg).
 
 <a id="arquitetura"></a>
 
-<p><img src="assets/identity-v2/section-04.svg" alt="Arquitetura" width="100%"></p>
-
+## Arquitetura
 
 ```mermaid
 flowchart LR
@@ -66,11 +63,9 @@ flowchart LR
     E --> F["Repositórios GitHub & Contato"]
 ```
 
-
 <a id="estrutura-do-repositório"></a>
 
-<p><img src="assets/identity-v2/section-05.svg" alt="Estrutura do repositório" width="100%"></p>
-
+## Estrutura do repositório
 
 ```text
 portfolio/
@@ -83,12 +78,9 @@ portfolio/
 └── README.md
 ```
 
-
 <a id="como-executar"></a>
 
-
-
-<p><img src="assets/identity-v2/section-06.svg" alt="Como executar" width="100%"></p>
+## Como executar
 
 1. Acesse diretamente **[arthurentsev.vercel.app](https://arthurentsev.vercel.app/)** ou clone o repositório para execução local
    ```bash
@@ -97,17 +89,15 @@ portfolio/
    ```
 2. Abra index.html em qualquer navegador moderno.
 
-
 <p align="center">
   <a href="https://github.com/arthurlynow098">GitHub</a> &nbsp;·&nbsp;
   <a href="https://arthurentsev.vercel.app/">Portfólio</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/entsevarthur/">LinkedIn</a>
 </p>
 
-
 <a id="identidade-e-créditos"></a>
 
-<p><img src="assets/identity-v2/section-07.svg" alt="Identidade e créditos" width="100%"></p>
+## Identidade e créditos
 
 <table><tr><td width="150"><img src="assets/identity-v2/logo.png" alt="Pavão" width="130"></td><td><strong>Pavão</strong><br>Apresentação visual do trabalho desenvolvido.<br><br><a href="assets/identity-v2/logo.png">Logo em PNG</a> · <a href="assets/identity-v2/banner.png">Banner em PNG</a></td></tr></table>
 
