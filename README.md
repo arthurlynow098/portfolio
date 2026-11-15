@@ -21,9 +21,9 @@
 <p><img src="assets/identity-v2/section-01.svg" alt="Por onde começar" width="100%"></p>
 
 
-- **[Conteúdo](index.html)** — Página com apresentação e projetos.
-- **[Visual](styles.css)** — Layout, cores e estilos da interface.
-- **[Interação](app.js)** — Comportamentos implementados em JavaScript.
+- **[Conteúdo](index.html)**, página com apresentação e projetos.
+- **[Visual](styles.css)**, layout, cores e estilos da interface.
+- **[Interação](app.js)**, comportamentos implementados em JavaScript.
 
 
 <a id="visão-geral"></a>
@@ -90,7 +90,7 @@ portfolio/
 
 <p><img src="assets/identity-v2/section-06.svg" alt="Como executar" width="100%"></p>
 
-1. Acesse diretamente **[arthurentsev.vercel.app](https://arthurentsev.vercel.app/)** ou clone o repositório para execução local:
+1. Acesse diretamente **[arthurentsev.vercel.app](https://arthurentsev.vercel.app/)** ou clone o repositório para execução local
    ```bash
    git clone https://github.com/arthurlynow098/portfolio.git
    cd portfolio
@@ -111,6 +111,6 @@ portfolio/
 
 <table><tr><td width="150"><img src="assets/identity-v2/logo.png" alt="Pavão" width="130"></td><td><strong>Pavão</strong><br>Apresentação visual do trabalho desenvolvido.<br><br><a href="assets/identity-v2/logo.png">Logo em PNG</a> · <a href="assets/identity-v2/banner.png">Banner em PNG</a></td></tr></table>
 
-Artes da coleção fornecida por **Arthur Entsev**, com adaptação das logos e acabamento dos banners realizados com auxílio de geração de imagens. Referências de identidade e apresentação: [LynowCut](https://github.com/arthurlynow098/LynowCut), [LynowMic](https://github.com/arthurlynow098/LynowMic) e [LynowCatch](https://github.com/arthurlynow098/LynowCatch). Os créditos e avisos do conteúdo original foram preservados.
+Artes da coleção fornecida por **Arthur Entsev**, com adaptação das logos e acabamento dos banners realizados com auxílio de geração de imagens. Referências de identidade e apresentação, [LynowCut](https://github.com/arthurlynow098/LynowCut), [LynowMic](https://github.com/arthurlynow098/LynowMic) e [LynowCatch](https://github.com/arthurlynow098/LynowCatch). Os créditos e avisos do conteúdo original foram preservados.
 
 <p align="center"><a href="#top">Voltar ao topo ↑</a> · <a href="https://github.com/arthurlynow098">Arthur Entsev</a> · <a href="https://arthurentsev.vercel.app/">Portfólio</a></p>
