@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-<p align="center"><img src="assets/banner.png" alt="Portfólio" width="100%"></p>
+<p align="center"><img src="assets/identity-v2/banner.png" alt="Portfólio" width="100%"></p>
 
 <p align="center">Portfólio de Arthur Mendes Entsev com projetos, tecnologias e experiência profissional.</p>
 
@@ -18,7 +18,7 @@
 
 <a id="por-onde-começar"></a>
 
-<p><img src="assets/secao-01.png" alt="Por onde começar" width="100%"></p>
+<p><img src="assets/identity-v2/section-01.svg" alt="Por onde começar" width="100%"></p>
 
 
 - **[Conteúdo](index.html)**, página com apresentação e projetos.
@@ -30,7 +30,7 @@
 
 <a id="sobre-o-projeto"></a>
 
-<p><img src="assets/secao-02.png" alt="Sobre o projeto" width="100%"></p>
+<p><img src="assets/identity-v2/section-02.svg" alt="Sobre o projeto" width="100%"></p>
 
 O portfólio reúne minha atuação prática na **Flash Engenharia**, minha formação em **Análise e Desenvolvimento de Sistemas (Fatec Sorocaba)** e links diretos para as demonstrações e repositórios dos meus principais sistemas.
 
@@ -38,7 +38,7 @@ O portfólio reúne minha atuação prática na **Flash Engenharia**, minha form
 
 
 
-<p><img src="assets/secao-03.png" alt="Recursos" width="100%"></p>
+<p><img src="assets/identity-v2/section-03.svg" alt="Recursos" width="100%"></p>
 
 **Vitrine de projetos**<br>
 Cards interativos destacando arquitetura, tecnologias utilizadas e acesso direto ao código no GitHub.
@@ -54,7 +54,7 @@ Estilização em styles.css e ícone vetorial exclusivo (favicon.svg).
 
 <a id="arquitetura"></a>
 
-<p><img src="assets/secao-04.png" alt="Arquitetura" width="100%"></p>
+<p><img src="assets/identity-v2/section-04.svg" alt="Arquitetura" width="100%"></p>
 
 
 ```mermaid
@@ -69,7 +69,7 @@ flowchart LR
 
 <a id="estrutura-do-repositório"></a>
 
-<p><img src="assets/secao-05.png" alt="Estrutura do repositório" width="100%"></p>
+<p><img src="assets/identity-v2/section-05.svg" alt="Estrutura do repositório" width="100%"></p>
 
 
 ```text
@@ -88,7 +88,7 @@ portfolio/
 
 
 
-<p><img src="assets/secao-06.png" alt="Como executar" width="100%"></p>
+<p><img src="assets/identity-v2/section-06.svg" alt="Como executar" width="100%"></p>
 
 1. Acesse diretamente **[arthurentsev.vercel.app](https://arthurentsev.vercel.app/)** ou clone o repositório para execução local
    ```bash
@@ -107,9 +107,9 @@ portfolio/
 
 <a id="identidade-e-créditos"></a>
 
-<p><img src="assets/secao-07.png" alt="Identidade e créditos" width="100%"></p>
+<p><img src="assets/identity-v2/section-07.svg" alt="Identidade e créditos" width="100%"></p>
 
-<table><tr><td width="150"><img src="assets/identity-v2/logo.png" alt="Pavão" width="130"></td><td><strong>Pavão</strong><br>Apresentação visual do trabalho desenvolvido.<br><br><a href="assets/identity-v2/logo.png">Logo em PNG</a> · <a href="assets/banner.png">Banner em PNG</a></td></tr></table>
+<table><tr><td width="150"><img src="assets/identity-v2/logo.png" alt="Pavão" width="130"></td><td><strong>Pavão</strong><br>Apresentação visual do trabalho desenvolvido.<br><br><a href="assets/identity-v2/logo.png">Logo em PNG</a> · <a href="assets/identity-v2/banner.png">Banner em PNG</a></td></tr></table>
 
 Artes da coleção fornecida por **Arthur Entsev**, com adaptação das logos e acabamento dos banners realizados com auxílio de geração de imagens. Referências de identidade e apresentação, [LynowCut](https://github.com/arthurlynow098/LynowCut), [LynowMic](https://github.com/arthurlynow098/LynowMic) e [LynowCatch](https://github.com/arthurlynow098/LynowCatch). Os créditos e avisos do conteúdo original foram preservados.
 
